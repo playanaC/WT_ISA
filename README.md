@@ -1,5 +1,5 @@
 # WT_ISA
-In this work, a new worm tracker is proposed using computer vision techniques. This method uses the skeletonization method proposed in a previous work [ISA](https://doi.org/10.1038/s41598-020-79430-8). Using this new skeleton some possible predictions of the next pose are obtained. An optimization function with different parameters evaluates all predictions and selects the optimal skeleton. The model with the best results obtained an accuracy of 99.63% in aggregated worm tracks and an IoU value of 0.7 during aggregations.
+In this work, a new worm tracker is proposed using computer vision techniques. This method uses the skeletonization method proposed in a previous work, [ISA](https://doi.org/10.1038/s41598-020-79430-8). Using this new skeleton some possible predictions of the next pose are obtained. An optimization function with different parameters evaluates all predictions and selects the optimal skeleton. The model with the best results obtained an accuracy of 99.63% in aggregated worm tracks and an IoU value of 0.7 during aggregations.
 
 # Requirements:
 This demo was tested in Windows 10 with Matlab R2018b.
