@@ -19,7 +19,7 @@ git clone https://github.com/playanaC/WT_ISA.git
 - If you want to skip the track processing part, you could uncomment line 9, and comment lines 12 through 23 or vice versa.
 - The different parameters are found on lines 94 - 118 and 178 - 221 of *predict_skeletons.m* file. If you want to work with any of them, it is necessary to comment or     uncomment as necessary.
 - Run Main.m macro. This macro will first find the region of interest (inside the petri dish), then it will get all the worm trajectories, these will be evaluated to classify the areas in worm tracks(red), noise (blue), areas with little movement (green). Second, you will evaluate each tracks to obtain all the worm skeletons within it. Third, the results will be saved in xml files. 
-- The name of each model is a number, and can be changed in line 85 of the *Main.m file*. The xml files where the results of the skeletons are saved will have the name of the model accompanied by *_M_DT#*. We use *M* for the models that skeletonization is used [ISA](https://doi.org/10.1038/s41598-020-79430-8) and *N* for classical skeletonization. The value of *#* is the number of the worm path.
+- The name of each model is a number, and can be changed in line 85 of the *Main.m file*. The xml files where the results of the skeletons are saved will have the name of the model accompanied by *_M_DT#*. We use *M* for the models that skeletonization is used [ISA](https://doi.org/10.1038/s41598-020-79430-8) and *N* for classical skeletonization. The value of *#* is the number of the worm track.
 
 # Run Gui_viewer in Matlab:
 Gui_viewer is an app to view the results saved in xmls files.
