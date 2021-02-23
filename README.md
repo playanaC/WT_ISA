@@ -13,6 +13,8 @@ This demo was tested in Windows 10 with Matlab R2018b.
 ```
 git clone https://github.com/playanaC/WT_ISA.git
 ```
+# Dataset:
+- The dataset with all aggregation experiments can be downloaded from [dataset_skeletons](https://active-vision.ai2.upv.es/wp-content/uploads/2021/02/dataset_skeletons.zip).
 
 # Run the skeletonization demo in Matlab:
 - Before you start, change the path of the images in *pathl1 variable* in Main.m file.
