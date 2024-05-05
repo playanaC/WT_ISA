@@ -37,8 +37,8 @@ Gui_viewer is an app to view the results saved in xmls files.
 # Examples
 ![image](https://github.com/playanaC/WT_ISA/blob/main/examples.png)
 
-# # Video
-![](https://github.com/playanaC/WT_ISA/blob/main/Demo_videos/4_30D1CBP2t10.mp4)
+## Video
+![video](https://github.com/playanaC/WT_ISA/blob/main/Demo_videos/4_30D1CBP2t10.mp4)
 
 # References:
 - Layana Castro Pablo E., Puchalt, J.C., Sánchez-Salmerón, A. "Improving skeleton algorithm for helping *Caenorhabditis elegans* trackers". Scientific Reports (2020) [doi paper](https://doi.org/10.1038/s41598-020-79430-8).
